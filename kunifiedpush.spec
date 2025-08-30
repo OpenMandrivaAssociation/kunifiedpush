@@ -11,8 +11,11 @@ Summary:	Library for handling push notifications
 URL:		https://invent.kde.org/libraries/kunifiedpush
 License:	GPL
 Group:		System/Libraries
-BuildRequires:	cmake
 BuildSystem:	cmake
+BuildRequires:	cmake(ECM)
+BuildRequires:	cmake(Qt6Core)
+BuildRequires:	cmake(Qt6DBus)
+BuildRequires:	pkgconfig(openssl)
 
 %description
 Library for handling push notifications
