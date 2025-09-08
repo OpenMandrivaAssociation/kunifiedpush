@@ -15,6 +15,7 @@ BuildSystem:	cmake
 BuildRequires:	cmake(ECM)
 BuildRequires:	cmake(Qt6Core)
 BuildRequires:	cmake(Qt6DBus)
+BuildRequires:	cmake(Qt6Test)
 BuildRequires:	pkgconfig(openssl)
 
 %description
