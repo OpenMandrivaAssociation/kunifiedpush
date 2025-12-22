@@ -49,7 +49,7 @@ a library for handling push notifications
 %{_sysconfdir}/xdg/autostart/org.kde.kunifiedpush-distributor.desktop
 %{_prefix}/lib/systemd/user/graphical-session.target.wants/kunifiedpush-distributor.service
 %{_prefix}/lib/systemd/user/kunifiedpush-distributor.service
-%{_libdir}/plugins/plasma/kcms/systemsettings/kcm_push_notifications.so
+%{_qtdir}/plugins/plasma/kcms/systemsettings/kcm_push_notifications.so
 %{_datadir}/applications/kcm_push_notifications.desktop
 %{_datadir}/qlogging-categories6/org_kde_kunifiedpush.categories
 
