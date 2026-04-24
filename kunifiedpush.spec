@@ -21,6 +21,7 @@ BuildRequires:	cmake(KF6I18n)
 BuildRequires:	cmake(KF6Solid)
 BuildRequires:	cmake(KF6Service)
 BuildRequires:	cmake(KF6KCMUtils)
+BuildRequires:	cmake(KF6Crash)
 BuildRequires:	cmake(Qt6WebSockets)
 BuildRequires:	pkgconfig(openssl)
 
