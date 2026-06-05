@@ -5,7 +5,7 @@
 
 Name:		kunifiedpush
 Version:	26.04.2
-Release:	1
+Release:	2
 Source0:	https://download.kde.org/%{stable}/release-service/%{version}/src/%{name}-%{version}.tar.xz
 Summary:	Library for handling push notifications
 URL:		https://invent.kde.org/libraries/kunifiedpush
