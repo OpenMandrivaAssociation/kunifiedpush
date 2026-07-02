@@ -4,8 +4,8 @@
 %define stable %([ "$(echo %{version} |cut -d. -f3)" -ge 80 ] && echo -n un; echo -n stable)
 
 Name:		kunifiedpush
-Version:	26.04.2
-Release:	2
+Version:	26.04.3
+Release:	1
 Source0:	https://download.kde.org/%{stable}/release-service/%{version}/src/%{name}-%{version}.tar.xz
 Summary:	Library for handling push notifications
 URL:		https://invent.kde.org/libraries/kunifiedpush
